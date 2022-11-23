@@ -1,9 +1,7 @@
 # Form application 
 
-## A form for entering credit card data and checking validity of users' input
-When the form is submitted, validity of inputs is checked and if they are valid, a json output, containing the input values, is shown in console.
 
-The form should include: 
+The form has the following fields: 
 - Card holder name 
 - Card Number 
 - CCV security code
