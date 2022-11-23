@@ -42,7 +42,7 @@ const FormPurchase = () => {
         } else {
             if(date.substring(3) < year) { // expired year
                 newErrors.date = 'Expired date, please enter a valid date in the format MM/YY';
-            } else if (date.substring(3) == year && date.substring(0,2) < month) { // today`s year, check for the month validity
+            } else if (date.substring(3) == year && date.substring(0,2) < month) { // current year, check for the month validity
                 newErrors.date = 'Expired date, please enter a valid date in the format MM/YY';
             }
         }
